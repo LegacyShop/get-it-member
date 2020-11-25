@@ -1,0 +1,47 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "indent": ["error", 2, {
+      "ignoredNodes": ["ConditionalExpression"],
+      "SwitchCase": 1
+    }],
+    "linebreak-style": ["error", "windows"],
+    "object-curly-spacing": ["error", "never"],
+    "no-console": "off",
+    "no-plusplus": ["error", {"allowForLoopAfterthoughts": true}],
+    "arrow-parens": ["error", "as-needed"],
+    "no-use-before-define": ["error", {"functions": false}],
+    "max-classes-per-file": "off",
+    "class-methods-use-this": "off",
+    "no-useless-call": "error",
+    "no-useless-concat": "error",
+    "no-useless-escape": "error",
+    "no-useless-return": "error",
+    "no-return-await": "error",
+    "no-restricted-syntax": "off",
+    "consistent-return": "off",
+    "no-param-reassign": "off",
+    "guard-for-in": "off",
+    "default-case": "off",
+    "no-return-assign": "off",
+    "no-await-in-loop": "off",
+    "no-continue": "off",
+    "no-underscore-dangle": "off",
+    "no-multiple-empty-lines": ["error", {"max": 2}],
+    "eqeqeq": "off"
+  }
+}

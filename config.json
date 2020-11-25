@@ -1,0 +1,20 @@
+{
+  "commandPrefix": "+",
+  "invite": "https://discord.gg/y4AFbt5",
+  "owners": ["342408330700128266", "532889574045777920", "774455246222262272"],
+  "officialServer": "741022790366527689",
+  "supportServer": "741978333109157900",
+  "inviteLogChannel": "746442621286613004",
+
+  "displayedServersCount": 2,
+  "inviteCost": 1,
+  "userStartBalance": 2,
+  "minimumPayout": 5,
+  "dailyReward": 2,
+  "weeklyReward": 20,
+  "joinServerReward": 0.5,
+  "joinServerRewardMultiplier": 1.5,
+  "serverBoostingReward": 100,
+  "hoursBeforeLeavingServer": 72,
+  "leavingPenaltyPercentage": 1.75
+}
