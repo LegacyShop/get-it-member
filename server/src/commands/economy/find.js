@@ -45,7 +45,7 @@ module.exports = class extends Command {
         \n__**\`Dont wanna waste time? You wanna get more coins? Just join on this server and get up to x1.35 coins or buy coins in official store +store\`**__
         **GetMembers+ [Support]:** ${this.client.options.invite}
       `);
-
+    message.reply('BUY COINS, 5 DOLLARS => 100 COINS. DO \`+store\`')
     message.say(embed);
   }
 };
