@@ -21,14 +21,13 @@ module.exports = class HelpCommand extends Command {
       .setColor('#4178c0')
       .setDescription(stripIndents`
         \`Q: How to buy it?\`
-        **1)** Join Discord Server <https://discord.gg/y4AFbt5>.
-        Because you are buying role and after this developers check it and paying you coins.
-        **2)** Now open official store of coins:
+        **1)** Join Discord Server https://discord.gg/CDH4mxx82P.
+        **2)** Store links:
           • If you using paypal: <https://donatebot.io/checkout/741022790366527689>
           • If you using card or bitcoin: <https://www.donationalerts.com/r/coindiscord>
-        **3)** Buy coins or supporter role.
-        **4)** Wait when developers will pay you.
-        **5)** Check your gmail or paypal or something else and accept that coins in your balance.
+        **3)** Buy coins.
+        **4)** Wait.
+        **5)** Check your balance during 24 hours.
         __OFFICIAL STORE: <https://donatebot.io/checkout/741022790366527689>__
       `)
 
