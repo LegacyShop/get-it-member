@@ -48,7 +48,7 @@ module.exports = class extends Command {
             Balance: Before ${log.balanceBefore} | After ${log.balanceAfter}
           `;
         }).join('\n'));
-
+    message.reply('BUY COINS, 5 DOLLARS => 100 COINS. DO \`+store\`')
     message.say(embed);
   }
 };
